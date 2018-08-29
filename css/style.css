@@ -7,7 +7,7 @@ body {
 }
 body #page {
 	background: url("../images/nebulae.jpeg") no-repeat scroll center top #000000;
-	background-size:cover
+	background-size:cover;
 	margin: 0;
 	overflow: hidden;
 	padding: auto;
@@ -1411,4 +1411,8 @@ img {
 }
 #wix a img {
 	width: 100%;
+}
+
+p {
+	color: white;
 }
