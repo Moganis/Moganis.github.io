@@ -6,8 +6,7 @@ body {
 	width: auto;
 }
 body #page {
-	background: url("../images/nebulae.jpeg") no-repeat scroll center top #000000;
-	background-size:cover;
+	background: url("../images/nebulae.jpeg") no-repeat fixed center top #000000; 
 	margin: 0;
 	overflow: hidden;
 	padding: auto;
@@ -155,7 +154,7 @@ img {
 	width: 100%;
 }
 #body.home {
-	background: none;
+	background-color: rgba(20, 20, 20, 0.35);
 	margin: 0;
 	min-height: 1308px;
 	overflow: hidden;
@@ -519,7 +518,7 @@ img {
 }
 /*----------------------------------------body-styles---------------------------------------*/
 #body.about .header {
-	background: url(../images/moga.jpg) no-repeat center  top #000000;
+	background: url(../images/moga.jpg) no-repeat fixed center top #000000;
 	background-size:cover;
 	margin: 0;
 	min-height: 850px;
@@ -547,26 +546,28 @@ img {
 }
 #body.about .header div h2 {
 	color: #FFFFFF;
+	background-color: rgba(20, 20, 20, 0.75);
+	padding: 10px;
 	display: block;
 	font-family: audiowide-regular-webfont;
 	font-size: 32px;
 	font-weight: normal;
 	line-height: 32px;
-	margin: 0 auto 24px;
-	padding: 0;
+	margin: 24px auto;
 	text-align: center;
 	text-transform: uppercase;
 	width: 820px;
 }
 #body.about .header div p {
 	color: #ffffff;
+	background-color: rgba(20, 20, 20, 0.75);
 	display: block;
 	font-family: Arial;
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 24px;
 	margin: 0 auto;
-	padding: 0;
+	padding: 10px;
 	text-align: center;
 	width: 820px;
 }
@@ -878,7 +879,7 @@ img {
 	line-height: 23px;
 	margin: 0 auto;
 	padding: 53px 0 27px;
-	text-align: center;
+	/* text-align: center; */
 	text-transform: uppercase;
 	width: 780px;
 }
